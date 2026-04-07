@@ -139,7 +139,7 @@ All design principles, guidelines, and technical specifications referenced in th
 
 ## About Me
 
-I am Omraj Kumar. I built this skill to help developers and designers ship apps that meet Apple's bar for quality and compliance.
+I am Om Rajguru. I built this skill to help developers and designers ship apps that meet Apple's bar for quality and compliance.
 
 - Website: [omrajguru.com/linktree](https://omrajguru.com/linktree)
 - Portfolio: [om.bearblog.dev/projects](https://om.bearblog.dev/projects)
