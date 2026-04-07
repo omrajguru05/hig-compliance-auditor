@@ -22,19 +22,19 @@ I built this skill to bring the rigor of Apple's design standards into the devel
 npx skills add omrajguru05/hig-compliance-auditor
 ```
 
-That is it. The skill installs to `~/.claude/skills/hig-compliance-auditor/` and is ready to use immediately.
+After installation, restart Claude Code or start a new conversation to activate the skill.
 
 ### Claude.ai (Web)
 
-Download the `hig-compliance-auditor.skill` file from this repo, then upload it at **Settings > Customize > Skills** in Claude.ai (Pro/Max/Team/Enterprise).
+Download the `hig-compliance-auditor.skill` file from this repo, then upload it at **Settings > Customize > Skills** in Claude.ai (Pro/Max/Team/Enterprise). Start a new conversation to activate.
 
 ### Manual Installation
 
 ```bash
-curl -sL https://raw.githubusercontent.com/omrajguru05/hig-compliance-auditor/main/install.sh | bash
+curl -sfL https://raw.githubusercontent.com/omrajguru05/hig-compliance-auditor/main/install.sh | bash
 ```
 
-After any installation method, restart Claude Code or start a new conversation for the skill to activate.
+After installation, restart Claude Code or start a new conversation to activate the skill.
 
 ## Usage
 
