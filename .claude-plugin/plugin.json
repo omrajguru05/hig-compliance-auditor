@@ -1,0 +1,7 @@
+{
+  "name": "hig-compliance-auditor",
+  "version": "1.0.0",
+  "description": "Audits codebases and design systems against Apple's Human Interface Guidelines, generates compliance reports, and applies fixes on user approval.",
+  "author": "Omraj Kumar",
+  "homepage": "https://github.com/omrajguru05/hig-compliance-auditor"
+}
