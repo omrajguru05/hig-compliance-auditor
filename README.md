@@ -24,6 +24,15 @@ npx skills add omrajguru05/hig-compliance-auditor
 
 After installation, restart Claude Code or start a new conversation to activate the skill.
 
+### Plugin Marketplace
+
+```
+/plugin marketplace add omrajguru05/hig-compliance-auditor
+/plugin install hig-compliance-auditor@omrajguru05-hig-compliance-auditor
+```
+
+After installation, restart Claude Code or start a new conversation to activate the skill.
+
 ### Claude.ai (Web)
 
 Download the `hig-compliance-auditor.skill` file from the root of this repo, then upload it at **Settings > Customize > Skills** in Claude.ai (Pro/Max/Team/Enterprise). After uploading, restart Claude Code or start a new conversation to activate the skill.
@@ -106,6 +115,8 @@ The skill walks you through a structured workflow:
 
 ```
 hig-compliance-auditor/
+  .claude-plugin/
+    plugin.json
   skills/
     hig-compliance-auditor/
       SKILL.md

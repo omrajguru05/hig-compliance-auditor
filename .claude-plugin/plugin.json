@@ -1,0 +1,11 @@
+{
+  "name": "hig-compliance-auditor",
+  "version": "1.0.0",
+  "description": "Audits codebases and design systems against Apple's Human Interface Guidelines, generates compliance reports with severity tiers, and applies fixes on user approval. Supports iOS, iPadOS, macOS, watchOS, tvOS, visionOS, and Web/PWA targets.",
+  "author": {
+    "name": "Om Rajguru",
+    "url": "https://omrajguru.com/linktree"
+  },
+  "homepage": "https://github.com/omrajguru05/hig-compliance-auditor",
+  "license": "MIT"
+}
