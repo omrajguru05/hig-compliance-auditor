@@ -27,4 +27,4 @@ curl -sfL "https://raw.githubusercontent.com/omrajguru05/hig-compliance-auditor/
   -o "$SKILL_DIR/references/compliance-checklists.md"
 
 echo "HIG Compliance Auditor installed to $SKILL_DIR"
-echo "Restart Claude Code to activate."
+echo "Restart Claude Code or start a new conversation to activate."

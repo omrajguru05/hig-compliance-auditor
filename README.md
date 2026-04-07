@@ -26,7 +26,7 @@ After installation, restart Claude Code or start a new conversation to activate 
 
 ### Claude.ai (Web)
 
-Download the `hig-compliance-auditor.skill` file from this repo, then upload it at **Settings > Customize > Skills** in Claude.ai (Pro/Max/Team/Enterprise). Start a new conversation to activate.
+Download the `hig-compliance-auditor.skill` file from the root of this repo, then upload it at **Settings > Customize > Skills** in Claude.ai (Pro/Max/Team/Enterprise). After uploading, restart Claude Code or start a new conversation to activate the skill.
 
 ### Manual Installation
 
