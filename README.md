@@ -16,25 +16,25 @@ I built this skill to bring the rigor of Apple's design standards into the devel
 
 ## Installation
 
-### Step 1: Add the plugin marketplace
+### Claude Code (CLI)
 
-```
-/plugin marketplace add omrajguru05/hig-compliance-auditor
-```
-
-### Step 2: Install the skill
-
-```
-/plugin install hig-compliance-auditor@omrajguru05-hig-compliance-auditor
+```bash
+npx skills add omrajguru05/hig-compliance-auditor
 ```
 
-### Step 3: Reload plugins
+After installation, restart Claude Code or start a new conversation to activate the skill.
 
-```
-/reload-plugins
+### Claude.ai (Web)
+
+Download the `hig-compliance-auditor.skill` file from the root of this repo, then upload it at **Settings > Customize > Skills** in Claude.ai (Pro/Max/Team/Enterprise). After uploading, restart Claude Code or start a new conversation to activate the skill.
+
+### Manual Installation
+
+```bash
+curl -sfL https://raw.githubusercontent.com/omrajguru05/hig-compliance-auditor/main/install.sh | bash
 ```
 
-The skill is now active. Claude will automatically use it when you ask for HIG compliance checks, Apple design audits, accessibility reviews, or App Store readiness assessments.
+After installation, restart Claude Code or start a new conversation to activate the skill.
 
 ## Usage
 
@@ -106,8 +106,6 @@ The skill walks you through a structured workflow:
 
 ```
 hig-compliance-auditor/
-  .claude-plugin/
-    plugin.json
   skills/
     hig-compliance-auditor/
       SKILL.md
@@ -116,6 +114,10 @@ hig-compliance-auditor/
         platform-paradigms.md
         web-pwa-adaptation.md
         compliance-checklists.md
+  install.sh
+  hig-compliance-auditor.skill
+  README.md
+  LICENSE
 ```
 
 ## Knowledge Base
